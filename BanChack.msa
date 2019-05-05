@@ -1,0 +1,11 @@
+﻿/banlst [$type] =>>>
+	if($type == 'list') {  
+		msg(get_banned_players())
+	}
+	if($type == 'iplist') {
+		msg(get_ip_bans())
+	}
+	if($type == '') {
+		msg(list나 iplist입력)
+	}
+<<<
